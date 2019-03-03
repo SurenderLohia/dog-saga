@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={dog || logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Dog Saga</h1>
+          <img src={dog || logo} className="App-logo" alt="logo" />
         </header>
         {dog ? (
           <p className="App-intro">Keep clicking for new dogs</p>
